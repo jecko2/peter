@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Muia Mutua Personal blog site</title>
+   
+    <!-- custom css links -->
+    <link rel="stylesheet" href="css/custom.css">
+     <!-- link for the cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- section header with navs -->
+    <div class="header">
+        <div class="toggle">
+            <div class="logo">Mutua</div>
+            <div class="menu-toggler"><i class="fas fa-bars" onclick="showMenu();" ></i></div>
+
+        </div>
+        <nav class="nav-links">
+            <ul id="navigation-list">
+                <!-- <button class="cancel-humburger" onclick="closeMenu ();">x</button><br> -->
+                <li><a href="#home"  onclick="closeMenu ();">Home</a></li>
+                <li><a href="#about"  onclick="closeMenu ();">About</a></li>
+                <li><a href="#skills"  onclick="closeMenu ();">Skills</a></li>
+                <li><a href="#blog"  onclick="closeMenu ();">Blogs</a></li>
+                <li><a href="#contact"  onclick="closeMenu ();">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- section home hero -->
+<div class="section-for-home" id="home">
+    <div class="section-home">
+        <div class="headingH">
+            <h1>Welcome to My website</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dignissimos laboriosam <br> amet aliquam laborum culpa pariatur nobis fugit deserunt.
+            </p>
+        </div>
+        <button class="more-info">
+            <a href="">Explore More</a>
+        </button>
+    </div>
+</div>
+    <!-- About section -->
+    <div class="about-section" id="about">
+        <div class="separate-about-concern">
+            <h1>About Peter Muia</h1>
+        <div class="image-setion">
+            <img src="images/profile.jpg" alt="image">
+            <a href="">View more images</a>
+        </div>
+    </div>
+        <div class="story-section">
+            <div class="education">
+                <h3>My Skills</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, libero.</p>
+                <button class="explore"><a href="#skills">Explore</a></button>
+            </div>
+            <div class="education">
+                <h3>My Hobbies</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, libero.</p>
+                <button class="explore">Explore</button>
+            </div>
+            <div class="education">
+                <h3>My Portfolio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, libero.</p>
+                <button class="explore">Explore</button>
+            </div>
+        </div>
+    </div>
+
+<!-- The skils section -->
+
+<div class="section-skills" id="skills">
+    <div class="skills-head">
+        <h1>Skills I Have</h1>
+    </div>
+    <div class="list-skills">
+        <div class="skill-title">
+            <h3><i class="fas fa-book-reader"></i>Academic Writting</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             In, ducimus!</p>
+             <a href="#">View Sample</a>
+        </div>
+
+        <div class="skill-title">
+            <h3><i class="fas fa-code"></i>Computer Skills</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             In, ducimus!</p>
+             <a href="#">View Sample</a>
+        </div>
+
+        <div class="skill-title">
+            <h3><i class="fas fa-funnel-dollar"></i> <br> Online Markerting</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             In, ducimus!</p>
+             <a href="#">View Sample</a>
+        </div>
+
+        <div class="skill-title">
+            <h3><i class="fas fa-landmark"></i>RealEstate Broker</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             In, ducimus!</p>
+             <a href="#">View Sample</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- contact page -->
+
+<div class="section-contact" id="contact">
+    <h3>Get In touch</h3>
+    <form action="" id="fcf-form-id" class="fcf-form-class">
+        <label for="Name" class="form-label">Full Name</label>
+        <div class="input-group">
+            <input type="text" name="Name" id="Name">
+        </div>
+
+
+        <div class="form-group">
+            <label for="Email" class="form-label">Email Address</label>
+            <div class="input-group">
+                <input type="email" name="Email" id="Email">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Message" class="form-label">Your Message</label>
+            <div class="input-group">
+               <textarea name="Message" id="Message" cols="30" rows="10">Enter Your Message here...</textarea>
+            </div>
+        </div>
+
+        <button class="form-submit">Sumbit</button>
+        <p class="check-box">Join My Newsletter</p><input type="checkbox" >
+    </form>
+</div>
+
+
+
+
+<!-- contact done -->
+
+
+
+
+
+<!-- the bloggin -->
+
+<div class="section-blogging" id="blog">
+    <div class="blogs">
+        <h1>My Blog Articles</h1>
+    </div>
+    <div class="display-articles">
+
+    <div class="articlesP">
+        <a href=""><img src="images/restate .jpeg" alt="Book1"></a>
+        <h4><strong>Cost</strong>: $15.03</h4>
+        <p class="book-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Architecto, ipsa.</p>
+        <i class="fas fa-shopping-cart"><a href="" class="shop">Order Now</a></i>
+    </div>
+
+    <div class="articlesP">
+        <a href=""><img src="images/codingbook.jpg" alt="Book2"></a>
+        <h4><strong>Cost</strong>: $12.03</h4>
+        <p class="book-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Architecto, ipsa.</p>
+        <i class="fas fa-shopping-cart"><a href="" class="shop">Order Now</a></i>
+    </div>
+
+    <div class="articlesP">
+        <a href=""><img src="images/awrite.jpeg" alt="Book3"></a>
+        <h4><strong>Cost</strong>: $12.93</h4>
+        <p class="book-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Architecto, ipsa.</p>
+        <i class="fas fa-shopping-cart"><a href="" class="shop">Order Now</a></i>
+    </div>
+
+    </div>
+</div>
+
+<!-- footer section -->
+
+<div class="footer">
+    <div class="content-footer">
+        <div class="main-footer-section">
+            <h1>Find out More</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Repudiandae voluptatibus blanditiis quis facilis in, 
+                 recusandae nam magnam sunt accusamus temporibus.
+            </p>
+            <a href="">Behind the scene</a>
+        </div>
+
+        <div class="main-footer-section">
+            <h1>Request Assignment</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Repudiandae voluptatibus blanditiis quis facilis in, 
+                 recusandae nam magnam sunt accusamus temporibus.
+            </p>
+            <a href="">Upload Assigment</a>
+        </div>
+
+        <div class="main-footer-section">
+            <h1>Partners</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Repudiandae voluptatibus blanditiis quis facilis in, 
+                 recusandae nam magnam sunt accusamus temporibus.
+            </p>
+            <a href="">Find Partners</a>
+        </div>
+    </div>
+    <div class="real-icons">
+        <hr>Social Networks
+        <i class="fab fa-facebook"><a href="https://www.facebook.com" target="_blank">facebook</a></i>
+        <i class="fab fa-twitter"><a href="https://www.twitter.com" target="_blank">twitter</a></i>
+        <i class="fab fa-instagram"><a href="https://www.instagram.com" target="_blank">instagram</a></i>
+        <i class="fab fa-youtube"><a href="https://www.youtube.com" target="_blank">youtube</a></i>
+        <i class="fab fa-tiktok"><a href="https://www.tiktok.com" target="_blank">tiktok</a></i>
+        <i class="fab fa-linkedin"><a href="https://www.linkedin.com" target="_blank">linkedin</a></i>
+    </div>
+    <hr class="line">
+    <div class="social-flex">
+    <p>Made with <i class="fas fa-heart" style="color: red;"></i> by <i>PafiQuinka</i>.
+         <br>Copyright &copy; <a href="https://jecko2.github.io/portfolio/webfile/" target="_blank">Jeckonia.ic</a></p>
+    <div class="social-icons">
+        <i class="fas fa-help"><a href="">help</a></i>
+        <i class="fas fa-legal"><a href="">legal</a></i>
+        <i class="fas fa-about"><a href="">About</a></i>
+    </div>
+</div>
+</div>
+
+
+
+
+<script src="js/custom.js"></script>
+
+</body>
+</html>
